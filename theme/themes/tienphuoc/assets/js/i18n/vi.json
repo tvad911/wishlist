@@ -1,0 +1,29 @@
+{
+  "@metadata": {
+    "authors": [
+      "Ánh Dương"
+    ],
+    "last-updated": "2020-10-06",
+    "locale": "vi"
+  },
+  "none": "Không xác định",
+  "city_title": "Quận/Huyện",
+  "appointment_title": "Đặt lịch hẹn",
+  "appointment_content": "Cảm ơn Quý khách đã gửi yêu cầu đặt hẹn. Chuyên viên tư vấn ProPlus sẽ liên hệ với Quý khách hàng trong vòng 24h. Trân trọng!",
+  "services_title": "Đăng ký dịch vụ",
+  "services_content": "Cảm ơn Quý khách đã gửi yêu cầu đăng ký dịch vụ. Chuyên viên tư vấn ProPlus sẽ liên hệ với Quý khách hàng trong vòng 24h. Trân trọng!",
+  "consignment_title": "Ký gửi bất động sản",
+  "consignment_content": "Cảm ơn Quý khách đã gửi yêu cầu ký gửi bất động sản. Chuyên viên tư vấn ProPlus sẽ liên hệ với Quý khách hàng trong vòng 24h. Trân trọng!",
+  "rent_title": "Cần thuê",
+  "rent_content": "Cảm ơn Quý khách đã gửi yêu cầu thuê nhà. Chuyên viên tư vấn ProPlus sẽ liên hệ với Quý khách hàng trong vòng 24h. Trân trọng!",
+  "contact_title": "Liên hệ",
+  "contact_content": "Cảm ơn Quý khách đã gửi yêu cầu liên hệ. Chuyên viên tư vấn ProPlus sẽ liên hệ với Quý khách hàng trong vòng 24h. Trân trọng!",
+  "error_number": "Vui lòng chỉ nhập số, không nhập các ký tự khác.",
+  "wishlist_success": "Thêm bất động sản vào trong danh sách bất động sản yêu thích thành công",
+  "wishlist_remove": "Xóa bất động sản trong danh sách bất động sản yêu thích thành công",
+  "message": "Thông báo",
+  "no_wishlist": "Không có bất động sản nào được lưu trong trang yêu thích của bạn!",
+  "wishlist_nocontent": "Không có nội dung",
+  "something_went_wrong": "Có lỗi xảy ra",
+  "share_link": "Share link"
+}

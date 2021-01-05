@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<script type="text/javascript">
+        var siteUrl = '{{ url('/') }}';
+        var localeCode = '{{ Language::getCurrentLocaleCode() }}';
+        var ref_lang = '{{ Language::getCurrentLocale() }}';
+    </script>
+</head>
+<body>
+	<!-- Mobile -->
+	<div class="wishlist-mb mb activation d-block d-lg-none">
+        <a href="{{ route('public.wishlist') }}"><span class="txt">{{ __('Wishlist') }}</span> <span class="count">(0)</span></a>
+    </div>
+
+    <!-- Desktop -->
+    <div class="wishlist activation d-none d-lg-block">
+        <a href="{{ route('public.wishlist') }}"><i class="mdi mdi-heart-outline ico"></i><span class="count">0</span></a>
+    </div>
+
+    <!-- Property -->
+    <button class="p-like addWishlist" data-id="{{ $property->id }}"><i class="mdi mdi-heart ico"></i>{{ __('Interested') }}</button>
+
+    <!-- List properties -->
+    <button class="p-like addWishlist" data-id="{{ $property->id }}"><i class="mdi mdi-heart ico"></i></button>
+</body>
+</html>
+
+Giải thích:
+1. Có cookie chứa danh sách yêu thích theo ngôn ngữ. (en_wishlist)
+2. Nhấn nút thêm thì thêm id property vào cookie, nếu đã có thì set lại giá trị. (Xóa cookie add lại với giá trị mới)
+3. Trang danh sách yêu thích, đọc cookie từ trình duyệt. Hiển thị danh sách ra.
+4. Nhấn nút save thì lưu danh sách lại, được link chia sẻ, nếu như đã tồn tại thì trả về url cũ.
+5. Mang link đi share, nếu thích click vào. Sẽ tiến hành merge với cookie cũ đã có và chuyển trang về trang danh sách mới.
+6. Có thể viết link share/{key} hiển thị danh sách property lưu trong CSDL không cần chuyển đến trang wishlist.
+
+CSS trong themes/tienphuoc/public/main.css --> Có thể tìm theo tên class của các nút ở trên, vì người khác viết css nên không phân tách thành less/sass được.
+JS trong assets/js/wishlist.js
+Các html được sử dụng nằm ở trên , nút wishlist ở trên desktop và mobile. Nút thêm vào wishlist ở trên chi tiết và trang danh sách.
+
+Mẫu: tienphuoc.byte.vn
+/wishlist --> Danh sách yêu thích
+/share/{key} --> Link bất động sản yêu thích chia sẻ
+

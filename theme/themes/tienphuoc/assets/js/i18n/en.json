@@ -1,0 +1,29 @@
+{
+  "@metadata": {
+    "authors": [
+      "Ánh Dương"
+    ],
+    "last-updated": "2020-10-06",
+    "locale": "en"
+  },
+  "none": "None",
+  "city_title": "District",
+  "appointment_title": "Make an appointment",
+  "appointment_content": "Thank you for your service registration request. ProPlus consultants will contact customers within 24 hours. Best regards!",
+  "services_title": "Register Services",
+  "services_content": "Thank you for your registration!. ProPlus will contact you soon, at least 24h in advance. Best regards",
+  "consignment_title": "Real estate consignment",
+  "consignment_content": "Thank you for your registration!. ProPlus will contact you soon, at least 24h in advance. Best regards",
+  "rent_title": "Find a real easte to rent",
+  "rent_content": "Thank you for your registration!. ProPlus will contact you soon, at least 24h in advance. Best regards",
+  "contact_title": "Contact",
+  "contact_content": "Thank you for your contact!. ProPlus will contact you soon, at least 24h in advance. Best regards",
+  "error_number": "Please input only number, no sign here.",
+  "wishlist_success": "Add a item to wishlist success",
+  "wishlist_remove": "Remove a item to wishlist success",
+  "message": "Message",
+  "no_wishlist": "No item on wishlist",
+  "wishlist_nocontent": "Nocontent",
+  "something_went_wrong": "Something went wrong",
+  "share_link": "Share link"
+}

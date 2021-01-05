@@ -1,0 +1,9 @@
+{
+    "name": "Wishlist",
+    "namespace": "Botble\\Wishlist\\",
+    "provider": "Botble\\Wishlist\\Providers\\WishlistServiceProvider",
+    "author": "Ánh Dương",
+    "url": "https://changeinteraction.com",
+    "version": "1.0",
+    "description": "The description for module wishlist"
+}
